@@ -1,0 +1,80 @@
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+ScottyControllerTest: test_should_get_dig
+-----------------------------------------
+Started GET "/scotty/dig" for 127.0.0.1 at 2017-01-18 09:46:09 +0100
+Processing by ScottyController#dig as HTML
+  Rendering scotty/dig.html.erb within layouts/application
+  Rendered scotty/dig.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 212ms (Views: 204.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+ScottyControllerTest: test_should_get_speak
+-------------------------------------------
+Started GET "/scotty/speak" for 127.0.0.1 at 2017-01-18 09:46:09 +0100
+Processing by ScottyController#speak as HTML
+  Rendering scotty/speak.html.erb within layouts/application
+  Rendered scotty/speak.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+ScottyControllerTest: test_should_get_teach
+-------------------------------------------
+Started GET "/scotty/teach" for 127.0.0.1 at 2017-01-18 09:46:09 +0100
+Processing by ScottyController#teach as HTML
+  Rendering scotty/teach.html.erb within layouts/application
+  Rendered scotty/teach.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+SayControllerTest: test_should_get_hello
+----------------------------------------
+Started GET "/say/hello" for 127.0.0.1 at 2017-01-18 09:46:09 +0100
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------
+ScottyControllerTest: test_should_get_dig
+-----------------------------------------
+Started GET "/scotty/dig" for 127.0.0.1 at 2017-01-18 11:19:56 +0100
+Processing by ScottyController#dig as HTML
+  Rendering scotty/dig.html.erb within layouts/application
+  Rendered scotty/dig.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 138ms (Views: 130.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+ScottyControllerTest: test_should_get_speak
+-------------------------------------------
+Started GET "/scotty/speak" for 127.0.0.1 at 2017-01-18 11:19:56 +0100
+Processing by ScottyController#speak as HTML
+  Rendering scotty/speak.html.erb within layouts/application
+  Rendered scotty/speak.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-------------------------------------------
+ScottyControllerTest: test_should_get_teach
+-------------------------------------------
+Started GET "/scotty/teach" for 127.0.0.1 at 2017-01-18 11:19:56 +0100
+Processing by ScottyController#teach as HTML
+  Rendering scotty/teach.html.erb within layouts/application
+  Rendered scotty/teach.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+----------------------------------------
+SayControllerTest: test_should_get_hello
+----------------------------------------
+Started GET "/say/hello" for 127.0.0.1 at 2017-01-18 11:19:56 +0100
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

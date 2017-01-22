@@ -1,0 +1,2 @@
+module ScottyHelper
+end
