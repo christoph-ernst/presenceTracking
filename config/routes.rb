@@ -1,8 +1,18 @@
 ###
-### gesehen: 3
+### gesehen: 6
 
 
 Rails.application.routes.draw do
+
+  get 'page/home'
+
+  get 'page/calendar'
+
+  get 'page/presence'
+
+  get 'page/statistics'
+
+  get 'page/admin'
 
   get 'scotty/speak'
 

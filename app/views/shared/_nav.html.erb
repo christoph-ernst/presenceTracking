@@ -11,9 +11,11 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><%= link_to "Dig Scotty", scotty_dig_path %></li>
-        <li><a href="#contact">Contact</a></li>
+        <%= nav_link_to "Home", page_home_path %>
+        <%= nav_link_to "Calendar", page_calendar_path %>
+        <%= nav_link_to "Presence", page_presence_path %>
+        <%= nav_link_to "Statistics", page_statistics_path %>
+        <%= nav_link_to "Admin", page_admin_path %>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
