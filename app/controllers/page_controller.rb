@@ -3,6 +3,7 @@ class PageController < ApplicationController
   end
 
   def calendar
+    @time = Time.now
   end
 
   def presence
