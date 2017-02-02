@@ -4,6 +4,18 @@ class PageController < ApplicationController
 
   def calendar
     @time = Time.now
+
+    @month = params['month'].to_i
+    @year = params['year'].to_i
+    if (@month = 0)
+      @month = @time.mon
+    end
+    if (@year = 0)
+      @year = @time.year
+    end
+
+      # @month = 2
+    # @year = 2017
   end
 
   def presence
