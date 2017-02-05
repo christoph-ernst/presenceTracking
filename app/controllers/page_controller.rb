@@ -7,10 +7,10 @@ class PageController < ApplicationController
 
     @month = params['month'].to_i
     @year = params['year'].to_i
-   if (@month == 0)
+   if ( @month < 1 || @month > 12 )
      @month = @time.mon
    end
-   if (@year == 0)
+   if (@year <= 0)
      @year = @time.year
    end
 

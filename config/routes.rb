@@ -1,18 +1,20 @@
 ###
-### gesehen: 9 alles
+### gesehen: 11 08:00
 
 
 Rails.application.routes.draw do
 
-  get 'page/home'
+  root 'page#home'
 
-  get 'page/calendar'
+  get 'home' => "page#home"
 
-  get 'page/presence'
+  get 'calendar(/:year(/:month))'  => "page#calendar", :as => 'calendar'
 
-  get 'page/statistics'
+  get 'presence' => "page#presence"
 
-  get 'page/admin'
+  get 'statistics' => "page#statistics"
+
+  get 'admin' => "page#admin"
 
   get 'scotty/speak'
 

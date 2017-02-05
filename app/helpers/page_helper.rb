@@ -41,12 +41,8 @@ module PageHelper
 #    cal += "<br/><br/>"
 #    cal += "<br/><br/>"
 
-    cal += link_to "Prev ", "/page/calendar?month=#{prev_month}&year=#{prev_year}", class: "btn btn-default active"
-    cal += link_to " Next", "/page/calendar?month=#{next_month}&year=#{next_year}", class: "btn btn-default active"
-
-
-
-
+    cal += link_to "Prev ", calendar_path(:month => prev_month, :year => prev_year), class: "btn btn-default active"
+    cal += link_to " Next", calendar_path(:month => next_month, :year => next_year), class: "btn btn-default active"
 
     cal += "<table class=\"table-condensed table-bordered table-striped\">"
     cal += "<thead>"
