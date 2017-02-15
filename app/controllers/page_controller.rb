@@ -4,7 +4,6 @@ class PageController < ApplicationController
 
   def calendar
     @time = Time.now
-
     @month = params['month'].to_i
     @year = params['year'].to_i
    if ( @month < 1 || @month > 12 )
@@ -23,5 +22,12 @@ class PageController < ApplicationController
   end
 
   def admin
+
+    # @parameters hash.new
+    # @parameters[first_name] = ""
+
+    @name = params["name"]
+    @email = params["email"]
+
   end
 end

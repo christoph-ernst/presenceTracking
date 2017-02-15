@@ -20742,3 +20742,1646 @@ Processing by PageController#home as HTML
 Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-02-07 16:57:19 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+  Rendered shared/_nav.html.erb (0.9ms)
+Completed 200 OK in 209ms (Views: 195.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2017-02-07 16:57:22 +0100
+Processing by PageController#calendar as HTML
+  Rendering page/calendar.html.erb within layouts/application
+  Rendered page/calendar.html.erb within layouts/application (1.5ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendar/2017/3" for 127.0.0.1 at 2017-02-07 16:57:26 +0100
+Processing by PageController#calendar as HTML
+  Parameters: {"year"=>"2017", "month"=>"3"}
+  Rendering page/calendar.html.erb within layouts/application
+  Rendered page/calendar.html.erb within layouts/application (2.5ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 29ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendar/2017/4" for 127.0.0.1 at 2017-02-07 16:57:26 +0100
+Processing by PageController#calendar as HTML
+  Parameters: {"year"=>"2017", "month"=>"4"}
+  Rendering page/calendar.html.erb within layouts/application
+  Rendered page/calendar.html.erb within layouts/application (1.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 28ms (Views: 24.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendar/2017/3" for 127.0.0.1 at 2017-02-07 16:57:27 +0100
+Processing by PageController#calendar as HTML
+  Parameters: {"year"=>"2017", "month"=>"3"}
+  Rendering page/calendar.html.erb within layouts/application
+  Rendered page/calendar.html.erb within layouts/application (3.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendar/2017/2" for 127.0.0.1 at 2017-02-07 16:57:27 +0100
+Processing by PageController#calendar as HTML
+  Parameters: {"year"=>"2017", "month"=>"2"}
+  Rendering page/calendar.html.erb within layouts/application
+  Rendered page/calendar.html.erb within layouts/application (1.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 27ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-07 17:01:49 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (16.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 37ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-07 17:02:10 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/admin"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (3.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.8ms)
+Started POST "/admin" for 127.0.0.1 at 2017-02-07 17:22:04 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/admin"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered collection of /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [12 times] (3.0ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.0ms)
+Started POST "/admin" for 127.0.0.1 at 2017-02-07 17:26:38 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rudRlH+67x0VMdAkeEAJlnBk0uA5sA+YYsqA982ni/EQGQmxdCUpPaxjdBCZ5YFsRJtWS3HGRVL1903TA79mtg==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"Tralalal", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (1.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-07 17:28:39 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.6ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-07 17:28:45 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ISDNYgLev8fEGuZnf/2LXfUwotKpdFnA0sP/4pwT7Wmf3pVHCUF5531IQlOeWAOnwc8meeECEwpF/jLGUgsALg==", "person"=>{"first_name"=>"Christpoh", "last_name"=>"Ernst", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (4.3ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 37ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:11:10 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.6ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 08:11:14 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sx8o3ZSIEK+DuQUXuVKrz7g/XNzH2egpGYPTgdXFDhYN4XD4nxfWjzrroSNY9yM1jMDYd4+vouOOvh6lG93jUQ==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (1.5ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:13:14 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (1.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 08:13:18 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"w68kQvT53+XtEojwAK7kT04pyzWA5MTlnvek4iNQIfF9UXxn/2YZxVRALMThC2y1etZPnsiSji8JymnG7UjMtg==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (6.2ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 40ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:15:09 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:5: syntax error, unexpected ','
+end=( form_for :person do |f|, method: "post" );@output_buff
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:5: syntax error, unexpected ')', expecting keyword_end
+erson do |f|, method: "post" );@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/page/admin.html.erb:5: syntax error, unexpected ','
+app/views/page/admin.html.erb:5: syntax error, unexpected ')', expecting keyword_end
+app/views/page/admin.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/page/admin.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/page/admin.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.5ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:18:08 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.6ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:19:36 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.7ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:19:37 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:20:39 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:53:39 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:5: syntax error, unexpected ')', expecting keyword_end
+orm_for :person do |f| :post );@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+             ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/page/admin.html.erb:5: syntax error, unexpected ')', expecting keyword_end
+app/views/page/admin.html.erb:11: syntax error, unexpected keyword_end, expecting ')'
+app/views/page/admin.html.erb:16: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/page/admin.html.erb:18: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.8ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:54:11 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (17.7ms)
+  Rendered shared/_nav.html.erb (1.2ms)
+Completed 200 OK in 188ms (Views: 183.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/statistics" for 127.0.0.1 at 2017-02-08 08:54:14 +0100
+Processing by PageController#statistics as HTML
+  Rendering page/statistics.html.erb within layouts/application
+  Rendered page/statistics.html.erb within layouts/application (0.6ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presence" for 127.0.0.1 at 2017-02-08 08:54:15 +0100
+Processing by PageController#presence as HTML
+  Rendering page/presence.html.erb within layouts/application
+  Rendered page/presence.html.erb within layouts/application (1.2ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 58ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-02-08 08:54:15 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.6ms)
+  Rendered shared/_nav.html.erb (0.9ms)
+Completed 200 OK in 57ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:54:16 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 08:54:20 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FRRfwS8xK2E6bvrEjJ6rQ/zPVAHn8eoax+aev93jBEGr6gfkJK7tQYM8XvBtOyO5yDDQqq+HoNBQ21ObE/vpBg==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.1ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 08:55:22 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XH1BZhaN4VRm0nNLjheuFHvufguEYrUei90Npb3fhV7igxlDHRIndN+A139vsibuTxH6oMwU/9Qc4MCBc8doGQ==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (106.9ms)
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x007f1f3004c6e8>:0x007f1f220e3510>):
+    11: <% end %>
+    12: 
+    13: 
+    14: <%= @user[first_name] %> <br/>
+    15: <%= @last_name %>
+  
+app/views/page/admin.html.erb:14:in `_app_views_page_admin_html_erb__2379308423986549787_69885963167680'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.6ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:55:28 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (110.9ms)
+Completed 500 Internal Server Error in 118ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x007f1f3004c6e8>:0x007f1f21e1b3f0>):
+    11: <% end %>
+    12: 
+    13: 
+    14: <%= @user[first_name] %> <br/>
+    15: <%= @last_name %>
+  
+app/views/page/admin.html.erb:14:in `_app_views_page_admin_html_erb__2379308423986549787_69885844578020'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.3ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.0ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.4ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 08:56:22 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (33.3ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+Completed 200 OK in 43442ms (Views: 442.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 08:57:39 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I42e2Qo8X6szwpbVm+tOpS9B+2rpDMrxLixsO02SMjudc8b8AaOZi4qQMuF6TsZfG75/waF6gDu5EaEfg4rffA==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (10.6ms)
+  Rendered shared/_nav.html.erb (2.5ms)
+Completed 200 OK in 232416ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-02-08 09:01:31 +0100
+Started GET "/home" for 127.0.0.1 at 2017-02-08 09:01:36 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+Completed 200 OK in 390ms (Views: 380.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/calendar" for 127.0.0.1 at 2017-02-08 09:01:41 +0100
+Processing by PageController#calendar as HTML
+  Rendering page/calendar.html.erb within layouts/application
+  Rendered page/calendar.html.erb within layouts/application (4.4ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+Completed 200 OK in 66ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:01:42 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 38461ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:02:29 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 4105ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (28.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.7ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:02:47 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-08 09:02:58 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.2ms)
+  Rendered shared/_nav.html.erb (1.7ms)
+Completed 200 OK in 346ms (Views: 337.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:03:00 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 11505ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (39.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.6ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:03:24 +0100
+Processing by PageController#admin as HTML
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:04:29 +0100
+Processing by PageController#admin as HTML
+Started GET "/presence" for 127.0.0.1 at 2017-02-08 09:04:34 +0100
+Started GET "/statistics" for 127.0.0.1 at 2017-02-08 09:04:36 +0100
+Processing by PageController#presence as HTML
+Completed 500 Internal Server Error in 64150ms (ActiveRecord: 0.0ms)
+
+
+Processing by PageController#statistics as HTML
+  Rendering page/statistics.html.erb within layouts/application
+  Rendered page/statistics.html.erb within layouts/application (0.8ms)
+Started GET "/" for 127.0.0.1 at 2017-02-08 09:04:39 +0100
+Processing by PageController#home as HTML
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  Rendering page/home.html.erb within layouts/application
+  
+  Rendering page/presence.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (0.6ms)
+app/controllers/page_controller.rb:25:in `admin'
+Completed 500 Internal Server Error in 9730ms (ActiveRecord: 0.0ms)
+
+
+  Rendered page/presence.html.erb within layouts/application (0.6ms)
+  Rendered shared/_nav.html.erb (1.7ms)
+Completed 200 OK in 3625ms (Views: 3185.6ms | ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+Started GET "/presence" for 127.0.0.1 at 2017-02-08 09:04:42 +0100
+Processing by PageController#presence as HTML
+  Rendering page/presence.html.erb within layouts/application
+  Rendered page/presence.html.erb within layouts/application (0.9ms)
+  Rendered shared/_nav.html.erb (1.9ms)
+Completed 200 OK in 5919ms (Views: 2959.0ms | ActiveRecord: 0.0ms)
+
+
+  Rendered shared/_nav.html.erb (5.7ms)
+Completed 200 OK in 2982ms (Views: 2449.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (60.4ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (133.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (14.0ms)
+  Rendered shared/_nav.html.erb (3.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+Completed 200 OK in 542ms (Views: 446.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.1ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (209.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:04:52 +0100
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (10257.8ms)
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 3596ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:05:15 +0100
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:05:15 +0100
+Processing by PageController#admin as HTML
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 7126ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 14911ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+  
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+app/controllers/page_controller.rb:25:in `admin'
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (40.6ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (18.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (732.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (39.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.3ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (129.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (45.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1148.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2982.4ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:06:22 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 11044ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (25.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (49.3ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:08:06 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (36.1ms)
+  Rendered shared/_nav.html.erb (1.6ms)
+Completed 200 OK in 3224ms (Views: 437.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 09:08:16 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"46m4lpEjscNzBeG1R/Kf0vcNs6IdYNLsuPS2pnHX3EJdV+Czmrx348pXRYGmVxcow/I3CVUWmCYvyXuCv88xBQ==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.2ms)
+Completed   in 509231ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-08 09:17:14 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 157ms (Views: 149.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:17:16 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.6ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (15.5ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:18:14 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/page_controller.rb:25:in `[]'
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.8ms)
+Started GET "/" for 127.0.0.1 at 2017-02-08 09:18:47 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 163ms (Views: 155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:18:48 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (no method name given):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.7ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:21:11 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (12.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 148ms (Views: 139.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 09:21:15 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jWxQI+FAVpLA0njPGSgXQ9ck7XINBt5Ce65lnthJNgMzkggG6t+QsnmA3Pv4jZ+549tp2UVwlIjsk6i6FlHbRA==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.2ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 32ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 09:21:20 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yNvtn8aR7AZ6UPssQbq3eacL/EVgnb7mId6HGnNx5eR2JbW6zQ4qJsMCXxigHz+Dk/R47ijr9Cy240o+vWkIow==", "person"=>{"first_name"=>"Christpoh", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (7.3ms)
+  Rendered shared/_nav.html.erb (1.2ms)
+Completed 200 OK in 55ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:21:47 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (131.2ms)
+Completed 500 Internal Server Error in 137ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x007ff6486eacf8>:0x007ff64956b110>):
+    11: <% end %>
+    12: 
+    13: 
+    14: <%= @person[first_name] %> <br/>
+    15: <%= @last_name %>
+  
+app/views/page/admin.html.erb:14:in `_app_views_page_admin_html_erb___703592676096661915_70347884594380'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:22:34 +0100
+Started GET "/admin" for 127.0.0.1 at 2017-02-08 09:22:45 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (10.1ms)
+  Rendered shared/_nav.html.erb (1.1ms)
+Completed 200 OK in 176ms (Views: 167.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 09:22:49 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CUtS0UDprRbExuEj01B2ptC9vgM8tVM0tHzdD6Bv7/u3tQr0S3ZrNn2URRcy9f5c5EI6qHTDGf4jQRArbncCvA==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.1ms)
+  Rendered shared/_nav.html.erb (1.3ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 09:22:54 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HhgMW/6lAi3MI1L6otmXCHjDpKf30/mS6GMvIoidnSqg5lR+9TrEDXVx9s5DfB/yTDwgDL+ls1h/XuIGRoVwbQ==", "person"=>{"first_name"=>"", "last_name"=>"", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.4ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 09:22:54 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"M+1Z1rwreyWowEKkMbOGsu+yoMKtoeGhLLAKRXJaAz2NEwHzt7S9BRGS5pDQFg5I200kaeXXq2u7jcdhvELueg==", "person"=>{"first_name"=>"", "last_name"=>"", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 27ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-08 09:22:58 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uPzSFHvssSrlUZ/IbkyFH3HVKcCfbhNn8vj3B7Eqv5cGAooxcHN3ClwDO/yP6Q3lRSqta9cYWa1lxTojfzJS0A==", "person"=>{"first_name"=>"Christpoh", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (7.4ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+Completed 200 OK in 50ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/say/hello" for 127.0.0.1 at 2017-02-09 07:40:36 +0100
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (3.7ms)
+  Rendered shared/_nav.html.erb (1.1ms)
+Completed 200 OK in 188ms (Views: 179.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 07:40:40 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (95.5ms)
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x007fab34033b58>:0x007fab34032a00>):
+    11: <% end %>
+    12: 
+    13: 
+    14: <%= @parameters[first_name] %> <br/>
+    15: <%= @last_name %>
+  
+app/views/page/admin.html.erb:14:in `_app_views_page_admin_html_erb__4122387273221318723_70186792078740'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.7ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 07:42:04 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `first_name' for #<PageController:0x007fab347d4f38>):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (47.0ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 07:42:05 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `first_name' for #<PageController:0x007fab455b2e10>):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (9.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (62.6ms)
+Started GET "/" for 127.0.0.1 at 2017-02-09 07:42:08 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (1.1ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 39ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 07:42:10 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `first_name' for #<PageController:0x007fab36347ba8>):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (36.2ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 07:42:18 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 64ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `first_name' for #<PageController:0x007fab34cb3658>):
+  
+app/controllers/page_controller.rb:25:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (45.6ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 07:42:44 +0100
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/controllers/page_controller.rb:25: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+    @parameters hash.new
+                    ^):
+  
+app/controllers/page_controller.rb:25: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.5ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 07:48:08 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant PageController::Person):
+  
+app/controllers/page_controller.rb:26:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.1ms)
+Started GET "/say/hello" for 127.0.0.1 at 2017-02-09 07:49:51 +0100
+Processing by SayController#hello as HTML
+  Rendering say/hello.html.erb within layouts/application
+  Rendered say/hello.html.erb within layouts/application (0.6ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 16ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2017-02-09 08:09:09 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (0.2ms)
+  Rendered shared/_nav.html.erb (0.9ms)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 08:09:11 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (95.9ms)
+Completed 500 Internal Server Error in 106ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `first_name' for #<#<Class:0x007fab35510468>:0x007fab34689930>):
+    12: 
+    13: 
+    14: 
+    15: <%= @parameters[first_name] %> <br/>
+    16: <%= @last_name %>
+  
+app/views/page/admin.html.erb:15:in `_app_views_page_admin_html_erb__4122387273221318723_70186647703900'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.7ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 08:09:35 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (7.7ms)
+  Rendered shared/_nav.html.erb (1.3ms)
+Completed 200 OK in 58ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-09 08:09:39 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+QFrEuMGl7rRlyOWGF5/BJURylpWQzibIURo6bxjM68bSEbHHDf4uU0Ug8ahu0dnLGnDUWs39oJm5ADcpBel7Q==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.9ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-09 08:09:45 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"B4p022O5aKP9CQl/qK0R6ymbj78rjYGyK7Nu5xpQADTlw1kOnIgHoGGKqS8RSCmIkOOGtBb5T6tsEwbSAiSWdg==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (4.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 41ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/statistics" for 127.0.0.1 at 2017-02-09 08:10:38 +0100
+Processing by PageController#statistics as HTML
+  Rendering page/statistics.html.erb within layouts/application
+  Rendered page/statistics.html.erb within layouts/application (1.5ms)
+  Rendered shared/_nav.html.erb (0.9ms)
+Completed 200 OK in 159ms (Views: 149.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presence" for 127.0.0.1 at 2017-02-09 08:10:39 +0100
+Processing by PageController#presence as HTML
+  Rendering page/presence.html.erb within layouts/application
+  Rendered page/presence.html.erb within layouts/application (0.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 46ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-09 08:10:40 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (14.7ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 42ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-09 08:10:44 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0R0eoyPUT2G8/XTtgDwvFQZOsWxecNAdIwkbJ2SNbNEzVDN23OUgYiB+1L052Rd2vza4Z2MEHgRkqXMSfPn6kw==", "person"=>{"first_name"=>"Christpoh", "last_name"=>"Ernst", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.5ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-09 08:11:16 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PZpDQGf6OxLPrbQU2eVKUXzkpc36gr0px1JvzbkD4Hrf026VmMtUEVMuFERgAHIyxZysxsf2czCA8gf4oXd2OA==", "person"=>{"first_name"=>"Lena", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (1.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-09 08:11:19 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/bV9Kd6B/jK0UtjRrVNijy6HyVXq1vAnHAJYg7h63fYf/FD8IbCRMSjReIEUtlrsl//AXteiPj5bojC2oA5LtA==", "person"=>{"first_name"=>"Christpoh", "last_name"=>"Rüegg", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (6.0ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 49ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-09 08:11:21 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RG1+BQuHceZ1RM7UQ4dq4ez5wtVUBpTinHgYss1AshymJFPQ9LYe5enHboT6YlKCVYHL3mlyWvvb2HCH1TQkXg==", "person"=>{"first_name"=>"", "last_name"=>"", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.9ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-15 07:14:14 +0100
+Processing by PageController#home as HTML
+  Rendering page/home.html.erb within layouts/application
+  Rendered page/home.html.erb within layouts/application (0.9ms)
+  Rendered shared/_nav.html.erb (1.5ms)
+Completed 200 OK in 184ms (Views: 176.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:14:16 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:19: syntax error, unexpected ')'
+nd=( key + " ==> " + value + );@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:21: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end ;@output_buffer.safe_append='
+             ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/page/admin.html.erb:19: syntax error, unexpected ')'
+app/views/page/admin.html.erb:21: syntax error, unexpected keyword_end, expecting ')'
+app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/page/admin.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.4ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.3ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:15:28 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:19: syntax error, unexpected ')'
+nd=( key + " ==> " + value + );@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:21: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end ;@output_buffer.safe_append='
+             ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/page/admin.html.erb:19: syntax error, unexpected ')'
+app/views/page/admin.html.erb:21: syntax error, unexpected keyword_end, expecting ')'
+app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/page/admin.html.erb:25: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.1ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:15:53 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (17.1ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:16:04 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OyKb8aJr5GYP2zFzVcZHEr/ymXEblGWn01DEoCmccwuOM76yFwo+gD/mjbaFc9RkbJDsT5p31qQ6u64ZBeRjVg==", "person"=>{"first_name"=>"gugus", "last_name"=>"test", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of ActionController::Parameters into String):
+    16: 
+    17: <pre>
+    18: <% params.each do |key, value| %>
+    19:   <%= key + " ==> " + value %>
+    20: 
+    21: <% end %>>
+    22: </pre>
+  
+app/views/page/admin.html.erb:19:in `+'
+app/views/page/admin.html.erb:19:in `block in _app_views_page_admin_html_erb__451535080934852541_70065985977640'
+app/views/page/admin.html.erb:18:in `_app_views_page_admin_html_erb__451535080934852541_70065985977640'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (32.3ms)
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:16:42 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OyKb8aJr5GYP2zFzVcZHEr/ymXEblGWn01DEoCmccwuOM76yFwo+gD/mjbaFc9RkbJDsT5p31qQ6u64ZBeRjVg==", "person"=>{"first_name"=>"gugus", "last_name"=>"test", "biography"=>"", "admin"=>"0"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (6.3ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 40ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:16:55 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zeMsstrweZWSibTqKgAixMjK+CdARMVD6Nx/27Qi/D548gnxb5Gjc6K0CC/6tbGyG6iNGcGndkABNxVimFrsYw==", "person"=>{"first_name"=>"gugus", "last_name"=>"test", "biography"=>"dsdsa", "admin"=>"1"}, "commit"=>"Save Person"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (5.8ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 36ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:22:18 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `name' for #<PageController:0x007f73049cb7c8>):
+  
+app/controllers/page_controller.rb:29:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.4ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:23:07 +0100
+Processing by PageController#admin as HTML
+Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `name' for #<PageController:0x007f73048a79a0>):
+  
+app/controllers/page_controller.rb:29:in `admin'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.7ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.1ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:24:06 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+ze; text_field_tag :name @name ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+; text_field_tag :email @email ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (22.9ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:26:23 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+ze; text_field_tag :name @name ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+; text_field_tag :email @email ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.3ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:27:06 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+ze; text_field_tag :name @name ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+; text_field_tag :email @email ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.3ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.9ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:27:21 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+ze; text_field_tag :name @name ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+; text_field_tag :email @email ;@output_buffer.safe_append='
+                              ^
+/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+                ^):
+  
+app/views/page/admin.html.erb:7: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:9: syntax error, unexpected tIVAR, expecting keyword_end
+app/views/page/admin.html.erb:23: syntax error, unexpected keyword_ensure, expecting end-of-input
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.8ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:27:44 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.7ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+Completed 200 OK in 28ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:27:48 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.0ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/statistics" for 127.0.0.1 at 2017-02-15 07:27:49 +0100
+Processing by PageController#statistics as HTML
+  Rendering page/statistics.html.erb within layouts/application
+  Rendered page/statistics.html.erb within layouts/application (0.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 23ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:27:50 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (4.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 34ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:28:35 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.1ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:28:36 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.6ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 29ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/statistics" for 127.0.0.1 at 2017-02-15 07:28:45 +0100
+Processing by PageController#statistics as HTML
+  Rendering page/statistics.html.erb within layouts/application
+  Rendered page/statistics.html.erb within layouts/application (0.4ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/presence" for 127.0.0.1 at 2017-02-15 07:28:46 +0100
+Processing by PageController#presence as HTML
+  Rendering page/presence.html.erb within layouts/application
+  Rendered page/presence.html.erb within layouts/application (0.5ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 27ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:28:46 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (5.7ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:28:48 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UE8FvHb0Ql0TasYjUNfzcX/moQqJG81UddJBKofwm1PlXiD/w5WYuyNXeuaAYmAHrITUNAj4flecOSuTq4iLDg==", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (5.4ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 36ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:29:13 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.8ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 30ms (Views: 26.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:29:18 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3bqSIqPSaI2mQyWOqOsfruO2zO5gDzo7gIWyPd6dq8Zoq7dhFrOya5Z+mUt4XozYMNS50OHsiThpbtiE8uW7mw==", "name"=>"tralalal", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (7.4ms)
+  Rendered shared/_nav.html.erb (0.8ms)
+Completed 200 OK in 67ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:29:48 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 24ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:29:49 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (4.0ms)
+  Rendered shared/_nav.html.erb (1.1ms)
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:30:00 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.6ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 27ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:30:06 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Sr82ppZsr/F5rGaWGKIxjqLXEc1oktSEiRlDHQeHG+T/rhPlIw11F0mR2lPIF6L4cbVk8+lxZ4dg8imkK/8LuQ==", "name"=>"123", "email"=>"456", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 33ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:31:21 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.4ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:31:26 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RQR2TnGGW3FM+Vno9YYgBuOguajRzs0MdETzMIUdOU7wFVMNxOeBl3zE5S0lM7NwMMLMllAtfg+dr5mJqWUpEw==", "name"=>"tralalal", "email"=>"456", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.6ms)
+  Rendered shared/_nav.html.erb (0.7ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:33:30 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.3ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:33:36 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bksdWX50XpkKqPCNalDCjSGnIdVaB+I60QuVPqQeCwnbWjgayxWEfzqVTEi65VH78sVU69vkUTk44P+HiGYbVA==", "name"=>"tralalal", "email"=>"456", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.7ms)
+  Rendered shared/_nav.html.erb (1.0ms)
+Completed 200 OK in 33ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:34:47 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t0ZRYl39P06fHmfgU0rqKFUQduPxlmi04osK5EvPwx0CV3Qh6JzlqK8j2yWD/3lehnID3XB127cLYGBdZ7fTQA==", "name"=>"tralalal", "email"=>"dsjak@djdsa", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.8ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:35:07 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2PY2QP/W52FXOj98WrZ9sKwYhsZU+y97lv3ZGEvHy1Ft5xMDSrc9h2cHg7mKA+7Gf3rz+NUYnHh/FrOhZ7/bDA==", "name"=>"tralalal", "email"=>"dsjak@djdsa", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (4.9ms)
+  Rendered shared/_nav.html.erb (0.5ms)
+Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin" for 127.0.0.1 at 2017-02-15 07:35:09 +0100
+Processing by PageController#admin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IGE6hE/d9uG5v+moqCCWARGO0fnG9pRCTwQwKBuYgJuVcB/H+rwsB4mCVW14lQV3wuykx0cVJ0Gm71qRN+CQxg==", "name"=>"tralalal", "email"=>"dsjak@djdsa", "commit"=>"Submit"}
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.4ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 28ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:38:00 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/scotty/RubymineProjects/myFirstProject/app/views/page/admin.html.erb:9: syntax error, unexpected tSTRING_BEG, expecting ')'
+:email, @email, :placeholder "something@domain.com" );@outpu
+                              ^):
+  
+app/views/page/admin.html.erb:9: syntax error, unexpected tSTRING_BEG, expecting ')'
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/scotty/.rvm/gems/ruby-2.4.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.6ms)
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:38:23 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (3.5ms)
+  Rendered shared/_nav.html.erb (1.3ms)
+Completed 200 OK in 29ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-02-15 07:41:12 +0100
+Processing by PageController#admin as HTML
+  Rendering page/admin.html.erb within layouts/application
+  Rendered page/admin.html.erb within layouts/application (2.8ms)
+  Rendered shared/_nav.html.erb (0.6ms)
+Completed 200 OK in 23ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/bootstrap.min.css.map"):
+  
+actionpack (5.0.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.1) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.1) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.1) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.1) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.1) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.1) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.1) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.1) lib/rails/engine.rb:522:in `call'
+puma (3.6.2) lib/puma/configuration.rb:225:in `call'
+puma (3.6.2) lib/puma/server.rb:578:in `handle_request'
+puma (3.6.2) lib/puma/server.rb:415:in `process_client'
+puma (3.6.2) lib/puma/server.rb:275:in `block in run'
+puma (3.6.2) lib/puma/thread_pool.rb:116:in `block in spawn_thread'

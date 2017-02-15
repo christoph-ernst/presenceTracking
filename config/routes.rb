@@ -1,5 +1,5 @@
 ###
-### gesehen: 11 08:00
+### gesehen: 12 fertig
 
 
 Rails.application.routes.draw do
@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get 'statistics' => "page#statistics"
 
   get 'admin' => "page#admin"
+  post 'admin' => "page#admin"
 
   get 'scotty/speak'
 
