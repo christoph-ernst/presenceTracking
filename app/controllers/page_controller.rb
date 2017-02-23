@@ -25,8 +25,13 @@ class PageController < ApplicationController
 
     # @parameters hash.new
     # @parameters[first_name] = ""
-
+    @form_error = false
+    @submitted = params["commit"]
     @name = params["name"]
+    if @name == ""
+      @error_msg = "Must enter your name!"
+      @form_error = true
+    end
     @email = params["email"]
 
   end

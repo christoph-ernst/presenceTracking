@@ -4,6 +4,7 @@
 
 Rails.application.routes.draw do
 
+  resources :players
   root 'page#home'
 
   get 'home' => "page#home"

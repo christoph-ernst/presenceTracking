@@ -2,21 +2,28 @@
 <p>Find me in app/views/page/Admin.html.erb</p>
 
 
-<%= form_for admin_path, :method => "POST" do %>
+<% if !@submitted || @form_error %>
+  <b><%= @error_msg %></b>
+  <%= form_for admin_path, :method => "POST" do %>
     <%= label_tag :name, "Enter Name: " %>
-    <%= text_field_tag :name, @name, :autofocus => "autofocus"  %><br/>
+    <%= text_field_tag :name, @name, :autofocus => "autofocus", :required => true  %><br/>
     <%= label_tag :email, "Enter Emailaddress: " %>
-    <%= text_field_tag :email, @email, :placeholder => "something@domain.com" %><br/>
-     <%= submit_tag "Submit" %>
+    <%= email_field_tag :email, @email, :placeholder => "something@domain.com" %><br/>
+    <%= submit_tag "Submit" %>
+  <% end %>
+
+<% else %>
+
+  <%= @name %> <br/>
+  <%= @email %>
+
+  <pre>
+    <% params.each do |key, value| %>
+      <%= key + " ==> " + value.to_s %>
+    <% end %>>
+  </pre>
+
+  THANKS!
+
 <% end %>
 
-
-<%= @name %> <br/>
-<%= @email %>
-
-<pre>
-<% params.each do |key, value| %>
-  <%= key + " ==> " + value.to_s %>
-
-<% end %>>
-</pre>
