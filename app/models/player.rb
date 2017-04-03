@@ -2,7 +2,6 @@ class Player < ApplicationRecord
   has_many :trainings, dependent: :destroy
 end
 
-
 class Training < ApplicationRecord
   belongs_to :player
 end
