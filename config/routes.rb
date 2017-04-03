@@ -1,5 +1,6 @@
 ###
-### gesehen: 12 fertig
+### gesehen: 14 fertig
+### 14 noch einmal gucken: DBs von Hand verändern
 
 
 Rails.application.routes.draw do
