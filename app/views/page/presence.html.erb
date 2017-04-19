@@ -1,2 +1,21 @@
 <h1>Page#Presence</h1>
 <p>Find me in app/views/page/Presence.html.erb</p>
+
+
+<table>
+  <tbody>
+
+
+<% @players.each do |player| %>
+    <tr>
+      <td><%= player.Vorname %></td>
+      <td><%= player.Nachname %></td>
+      <td>
+        <%= check_box_tag(:anwesend) %>
+      </td>
+    </tr>
+<% end %>
+
+
+  </tbody>
+</table>

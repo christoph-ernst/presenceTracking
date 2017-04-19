@@ -16,6 +16,7 @@ class PageController < ApplicationController
   end
 
   def presence
+    @players = Player.all
   end
 
   def statistics
